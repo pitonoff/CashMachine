@@ -1,0 +1,45 @@
+.counter {
+    background: rgb(34,193,195);
+    background: linear-gradient(186deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    display: block;
+    position: relative;
+    max-width: 30vw;
+    align-self: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid brown;
+  }
+  
+  .inputWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 10px;
+  }
+  .note {
+   justify-self: flex-start; 
+  }
+  .fifty {
+    margin-right: 14px;
+  }
+  .twenty{
+    margin-right: 14px;
+  }
+  .ten {
+    margin-right: 14px;
+  }
+  .five {
+    margin-right: 30px;
+  }
+  .inputWrapper label {
+    margin-right: 10px;
+  }
+  
+  .inputWrapper input {
+    padding: 5px;
+    font-size: 16px;
+  }
+ .amount {
+    margin-left: 4vw;
+ }
