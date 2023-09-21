@@ -48,10 +48,11 @@
   
  @media (max-width: 767px) {
     .counter {
-      max-width: 90%; /* Adjust the maximum width for smaller screens */
+      max-width: 100%; /* Adjust the maximum width for smaller screens */
     }
   
     .inputWrapper {
+      max-width: 80%;
       flex-direction: column; /* Display inputs in a column for mobile */
     }
   
