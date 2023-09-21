@@ -15,7 +15,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 1000%;
     overflow: hidden;
     z-index: -1;
   }
@@ -32,7 +32,7 @@
   }
   
   .background {
-    animation: scroll 155s linear infinite alternate; /* Rotate the background */
+    animation: scroll 105s linear infinite alternate; /* Rotate the background */
     background: url('/banknote.svg');
     background-repeat: repeat; /* Repeat the banknote background */
     width: 100%; /* Adjust as needed based on your design */
