@@ -12,7 +12,7 @@ const App: React.FC = () => {
     const svgLoader = setTimeout(() => {
       // Simulate SVG loading time (e.g., 3 seconds)
       setLoading(false);
-    }, 3000);
+    }, 5000);
 
     return () => clearTimeout(svgLoader);
   }, []); 

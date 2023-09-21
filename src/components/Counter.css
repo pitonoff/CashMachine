@@ -43,3 +43,27 @@
  .amount {
     margin-left: 4vw;
  }
+
+  
+  
+ @media (max-width: 767px) {
+    .counter {
+      max-width: 90%; /* Adjust the maximum width for smaller screens */
+    }
+  
+    .inputWrapper {
+      flex-direction: column; /* Display inputs in a column for mobile */
+    }
+  
+    .inputWrapper label {
+      margin-bottom: 5px; /* Add margin for mobile */
+    }
+  
+    .note,
+    .fifty,
+    .twenty,
+    .ten,
+    .five {
+      margin-right: 0; /* Remove margin for mobile */
+    }
+  }
